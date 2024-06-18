@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9c7159;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: rgb(253, 246, 246);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #454e2d;
+}
+.content {
+ /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #b8aaf5; /* Grey background */
+  align-items: center;
+}
+
+.skills {
+  text-align: center; /* Right-align text */#9c7159
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color:#f9ffe8; /* White text color */
+}
+
+.html {width: 90%; background-color: #9c7159;} /* Green */
+.css {width: 80%; background-color: #9c7159;} /* Blue */
+.js {width: 65%; background-color: #9c7159;} /* Red */
+.php {width: 60%; background-color:#9c7159;} /* Dark Grey */
+}
+.footer {
+background: #454e2d;
+padding: 10px;
+text-align: center;
+color: #ffffff;
+display: fixed;
+min-width: 500px;
+  margin: auto;
+}
